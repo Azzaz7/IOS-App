@@ -12,6 +12,7 @@
 		D6C53F792052D4C900372DFD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C53F782052D4C900372DFD /* ViewController.m */; };
 		D6C53F7B2052D4C900372DFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6C53F7A2052D4C900372DFD /* Assets.xcassets */; };
 		D6C53F7E2052D4C900372DFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6C53F7C2052D4C900372DFD /* Main.storyboard */; };
+		D6C53F8A2052D52900372DFD /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C53F892052D52900372DFD /* Rectangle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		D6C53F7A2052D4C900372DFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6C53F7D2052D4C900372DFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D6C53F7F2052D4C900372DFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6C53F882052D52900372DFD /* Rectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
+		D6C53F892052D52900372DFD /* Rectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rectangle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,8 @@
 				D6C53F7C2052D4C900372DFD /* Main.storyboard */,
 				D6C53F7F2052D4C900372DFD /* Info.plist */,
 				D6C53F742052D4C900372DFD /* Supporting Files */,
+				D6C53F882052D52900372DFD /* Rectangle.h */,
+				D6C53F892052D52900372DFD /* Rectangle.m */,
 			);
 			path = AsRect;
 			sourceTree = "<group>";
@@ -149,6 +154,7 @@
 				D6C53F792052D4C900372DFD /* ViewController.m in Sources */,
 				D6C53F762052D4C900372DFD /* main.m in Sources */,
 				D6C53F732052D4C900372DFD /* AppDelegate.m in Sources */,
+				D6C53F8A2052D52900372DFD /* Rectangle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
